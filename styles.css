@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("/Fonts/SF-Pro-Text-Bold.otf");
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(109.61deg,#4c4f5a 4.26%,#202125 84.84%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.window-container {
+    width: 272px;
+    background: #111112;
+    box-shadow: 0 4px 30px rgba(0,0,0,.5);
+    border-radius: 6px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 46px auto 36px;
+    align-items: center;
+    padding: 10px;
+}
+
+.header h1 {
+    font-family: "San Francisco";
+    font-weight: 700;
+    font-size: 13px;
+    color: #c5c8d4;
+}
+
+.header svg {
+    margin-left: auto;
+}
+
+.code-container {
+    margin: 0 10px 10px;
+}
+
+.code-container p {
+    border-right: .15em solid transparent;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; 
+}
+
+
+/* ANIMATIONS */
+.line1-animation {
+    animation: typing1 2s steps(30) 0s forwards, blink-caret 1s linear 0s 2;
+}
+
+@keyframes typing1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 76%;
+    }
+}
+
+/* The second line has a delay of 2 seconds */
+.line2-animation {
+    margin-left: 2rem;
+    animation: typing2 1.8s steps(23) 2s forwards, blink-caret 1s linear 2s 2;
+}
+
+@keyframes typing2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 55%;
+    }
+}
+
+/* The third line has a delay of 3.8 seconds */
+.line3-animation {
+    margin-left: 2rem;
+    animation: typing3 3s steps(34) 3.8s forwards, blink-caret 1s linear 3.8s 3;
+}
+
+@keyframes typing3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 88%;
+    }
+}
+
+/* The fourth line has a delay of 6.8 seconds + infinite for number of blink repetitions */
+.line4-animation {
+    animation: typing4 0.4s steps(2) 6.8s forwards, blink-caret 1s linear 6.8s infinite;
+}
+
+@keyframes typing4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 5%;
+    }
+}
+
+@keyframes blink-caret {
+    20%, 80% {
+        border-color: transparent;
+    }
+    25%, 75% {
+        border-color: orange;
+    }
+}
+
+
+/* STYLES FOR TEXT COLOR */
+.color-one {
+    color: #49A5A8;
+}
+
+.color-two {
+    color: #FFBC2D;
+}
+
+.color-three {
+    color: #FE5E58;
+}
+
+.color-four {
+    color: #9773C5;
+}
+
+.color-five {
+    color: #CD82AC;
+}
