@@ -5,9 +5,9 @@ Este proyecto de HTML y CSS tiene como objetivo recrear la animación desarrolla
 
 - Página web de estudio: https://codepen.io/
 - San Francisco Font: https://developer.apple.com/fonts/
-## 📸 Screenshots
+## 📸 Preview
 
-https://github.com/spacecoderdev/typewriting-css-animation/assets/146677344/2ab9032f-b6f2-4523-a364-b1c7746ae319
+![Typewriting-Animation](https://github.com/spacecoderdev/typewriting-css-animation/assets/146677344/7d979f2b-eefb-4e6a-91a7-819140caf5be)
 
 
 ## ✍️ Author
