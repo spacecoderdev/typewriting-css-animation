@@ -7,7 +7,7 @@ Este proyecto de HTML y CSS tiene como objetivo recrear la animación desarrolla
 - San Francisco Font: https://developer.apple.com/fonts/
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+https://github.com/spacecoderdev/typewriting-css-animation/assets/146677344/2ab9032f-b6f2-4523-a364-b1c7746ae319
 
 
 ## ✍️ Author
